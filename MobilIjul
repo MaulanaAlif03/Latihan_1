@@ -1,0 +1,29 @@
+paket mobil;
+
+/ **
+ *
+ * @ penulis Muhammad Maulana Alif
+ * /
+public class mobil1 {
+    String warna;
+    int tahunproduksi;
+}
+================================================== ==================================
+
+paket mobil;
+
+/ **
+ *
+ * @ penulis Muhammad Maulana Alif
+ * /
+mobilKrut kelas publik {
+    public static void main (String [] args) {
+        mobil1 mobilmaling = mobil1 baru ();
+        
+        mobilmaling.warna = "hitam";
+        mobilmaling.tahunproduksi = 2002;
+        
+        System.out.println ("warna:" + mobilmaling.warna);
+        System.out.println ("tahun produksi:" + mobilmaling.tahunproduksi);
+    }
+}
