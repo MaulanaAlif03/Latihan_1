@@ -1,0 +1,37 @@
+Paket Parameter;
+
+/ **
+ *
+ * @ penulis Muhammad Maulana Alif
+ * /
+kelas publik Matematika {
+    batal pertambahan (int a, int b) {
+        System.out.println ("hasil =" + (a + b));
+        
+    }
+    batal (int a, int b) {
+        System.out.println ("hasil =" + (ab));
+    }
+    void perkalian (int a, double b) {
+        System.out.println ("hasil =" + (a * b));
+    }
+    batal pembagian (float a, float b) {
+        System.out.println ("hasil =" + (a / b));
+    } ================================================= ============
+    
+Paket parameter;
+
+/ **
+ *
+ * @ penulis Muhammad Maulana Alif
+ * /
+kelas publik MatematikaIjul {
+    public static void main (String [] args) {
+        Matematika matematikalove = Matematika baru ();
+        
+        matematikagalau.pertambahan (10,5);
+        matematikagalau.pengurangan (50,20);
+        matematikagalau.perkalian (3,3);
+        matematikagalau.pembagian (20,5);
+    }
+}
