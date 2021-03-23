@@ -1,0 +1,38 @@
+package Mahasiswa;
+
+/**
+ *
+ * @author Muhammad Maulana Alif
+ */
+public class Mahasiswa {
+    String membaca;
+    int nyontek;
+    String modifikasi;
+    
+    public void Mahasiswa(){
+        System.out.println("cara membaca" + membaca + "dengan mimik wajah");
+                           
+        System.out.println("sekitar" + nyontek + "cara mencontek saat ujian");
+        System.out.println("cara modifikasi contekan " + modifikasi);
+    }
+}
+
+package Mahasiswa;
+
+/**
+ *
+ * @author Muhammad Maulana Alif
+ */
+public class Mahasiswa {
+    public static void main(String[] args) {
+        Mahasiswa mahasiswaugm = new Mahasiswa();
+        
+                  mahasiswaugm.membaca = "puisi";
+                  mahasiswaugm.nyontek = membawa kertas contekan;
+                  mahasiswaugm.modifikasi = "ada beberapa cara semisal mengacak urutan";
+                  mahasiswaugm.Mahasiswa();
+                  
+                  
+                  
+        }
+    }
